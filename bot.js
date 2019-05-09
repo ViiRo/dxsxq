@@ -11,9 +11,9 @@ channel.send(`**Fares spam , Fares spam , Fares spam , Fares spam Fares spamFare
 })
 
 client.on('message', message => {
- if(message.author.id !== "544394910183194628" )return;
+ if(message.author.id !== "524931248657793025" )return;
 
-let command = "4say"
+let command = "10say"
 
 if (!message.content.startsWith(command) || message.author.bot ) return;
 const args = message.content.slice(command.length).split(/ +/g).join(" ");
